@@ -20,7 +20,7 @@ export class MyApp {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
       if (isCordovaAvailable()){
-        this.oneSignal.startInit('e4b94da2-3e46-4fba-ae7f-496f7ae4c5e0', '1036903238084');
+        this.oneSignal.startInit('oneSignalAppId', 'sender_id');
         this.oneSignal.inFocusDisplaying(this.oneSignal.OSInFocusDisplayOption.Notification);
         this.oneSignal.handleNotificationReceived().subscribe(data => this.onPushReceived(data.payload));
         this.oneSignal.handleNotificationOpened().subscribe(data => this.onPushOpened(data.notification.payload));
