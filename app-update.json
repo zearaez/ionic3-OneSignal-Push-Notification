@@ -1,4 +1,5 @@
 {
-  "appUrl": "https://play.google.com/store/apps/details?id=com.medlab.medlab",
+  "iosAppUrl": "https://play.google.com/store/apps/details?id=com.medlab.medlab",
+  "androidAppUrl": "https://play.google.com/store/apps/details?id=com.medlab.medlab",
   "appVersion": "2.0.7"
 }
